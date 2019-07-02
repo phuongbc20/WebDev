@@ -1,0 +1,121 @@
+.dropdown-content {
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+img.avt{
+    max-width: 40%;
+    margin-left: 30%;
+    border-radius: 25px;
+}
+.header {
+        background-color: #4267B2;
+        color: white;
+        margin-top: 0%;
+        padding: 18px;
+        font-family: arial;
+        position: relative;
+        text-align: center;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+}
+.header:hover{
+    padding: 45px;
+    font-size: 45px;
+}
+.footer{
+    background-color: #4267B2;
+    color: white;
+    margin-bottom: 0;
+    padding: 18px;
+    font-family: arial;
+    position: relative;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.footer:hover{
+    background-color:blue;
+    font-size: 150%;
+}
+body {
+        margin: 0%;
+      
+        background-size: cover;
+        background-attachment: fixed;
+        
+    font-size: 18px;
+    }
+span.highlight{
+    color: red;
+    font-weight: bold;
+}
+ol h4,ol{
+    color: blue;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+ol li{
+    transition-duration: 0.2s;
+}
+ol li:hover{
+    color: red; 
+    font-size: 120%;
+    
+}
+ol{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+ul{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    transition: width 0.5s;
+    transition-timing-function: ease-out;
+    letter-spacing: 1px;
+}
+table, th, td {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+th{
+    background-color: rgb(218, 225, 236);
+    text-align: center;
+}
+marquee {
+    color: blue;
+    font-size: 25px;
+    padding: 25px;
+    border: 1px solid black;
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+}
+.bg {
+    position: fixed;
+}
+img.bgg{
+    position: absolute;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+    max-height: 70%;
+    max-width: 40%;
+    margin-left: 30%;
+    margin-top: 100px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}

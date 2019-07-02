@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đoàn Thanh Phương - Task 1</title>
+    <link rel="stylesheet" type="text/css" href="css/task1.css">
+</head>
+<body>
+    
+    <img class="bgg" src="image/bg.png">
+    <div class="dropdown">
+            <h1 class="header">
+                    Đoàn Thanh Phương - Task 1 
+                </h1>
+          <div class="dropdown-content">
+          <img class="avt" src="image/avt.jpg">
+          </div>
+        </div>
+    <ol type="A">
+
+        <!--Câu A-->
+        <li>
+            <h4>
+                So sánh file HTML có định dạng <span class="highlight">.html</span> và <span class="highlight">.htm</span>. Nếu không có các thẻ <span class="highlight">&lt;html&gt; &lt;head&gt;</span> và <span class="highlight">&lt;body&gt;</span> thì có ảnh hưởng gì trong file HTML không?
+            </h4>
+            <ul>
+                <li>
+                    Hai định dạng <span class="highlight">.html</span> và <span class="highlight">.htm</span> về cơ bản là giống nhau nhưng <span class="highlight">.html</span> được ưu tiên hơn <span class="highlight">.htm</span>. Đuôi <span class="highlight">.htm</span> có là do thời xưa phần mở rộng file bao gồm 3 ký tự.
+                </li>
+                <li>
+                    Nếu không có các thẻ <span class="highlight">&lt;html&gt; &lt;head&gt;</span> và <span class="highlight">&lt;body&gt;</span> thì không ảnh hưởng gì tới file HTML.
+                </li>
+            </ul>
+        </li>
+
+        <!--Câu B-->
+        <li>
+            <h4>    
+                Có những cách nào để hiển thị các thẻ HTML để hiển thị ra bên ngoài mà không bị HTML xử lý. Ví dụ hiển thị các nội dung như &lt;/br&gt;&lt;div&gt; &lt;hl&gt;Hello HTML&lt;/hl&gt;&lt;/div&gt;
+            </h4>
+            <ul>
+                <li>
+                    - Ta sử dụng <span class="highlight">HTML Entities</span> để hiểm thị hai dấu <span class="highlight">&lt; &gt;</span> :
+                </li>
+                <ul>
+                    <li>
+                        Dấu &lt; sẽ tương ứng với &amp;lt; hoặc &amp;#60;
+                    </li>
+                    <li>
+                        Dấu &gt; sẽ tương ứng với &amp;gt; hoặc &amp;#62;
+                    </li>
+                </ul>
+            
+            </ul>
+            
+        </li>
+        <!--Câu C-->
+        <li>
+            <h4>
+                Làm thế nào để tạo vùng chọn để định dạng trong CSS cho một <span class="highlight">tag</span>, một <span class="highlight">class</span>, một <span class="highlight">ID</span>?
+            </h4>
+            <ul>
+                <li>
+                    Định dạng CSS cho tag: </br>
+                    <code>
+                        [tên tag] <span class="highlight">{</span></br>
+                            [Nội dung định dạng]</br>
+                            <span class="highlight">}</span>
+                    </code>
+                </li>
+                <li>
+                        Định dạng CSS cho class </br>
+                        <code>
+                                <span class="highlight">.</span>[tên class] <span class="highlight">{</span></br>
+                                [Nội dung định dạng]</br>
+                                <span class="highlight">}</span>
+                        </code>
+                </li>
+                <li>
+                    Định dạng CSS cho ID: </br>
+                    <code>
+                            <span class="highlight">#</span>[ID] <span class="highlight">{</span></br>
+                            [Nội dung định dạng]</br>
+                            <span class="highlight">}</span>
+                    </code>
+                </li>
+            </ul>
+        </li>
+
+        <!--Câu D-->
+        <li>
+            <h4>        
+                Tìm và cho ví dụ về các thẻ có các chức năng sau:
+            </h4>
+                <ul>
+                    <li>Gạch chân, kẻ đường ngang, chỉ số trên/dưới.</li>
+                    <ul>
+                        <li>
+                            <u>Gạch chân:</u> dùng thẻ <span class="highlight">&lt;u&gt;</span>
+                        </li>
+                        <li>
+                            Đường kẻ ngang: dùng thẻ <span class="highlight">&lt;hr&gt;</span>
+                            <hr>
+                        </li>
+                        <li>
+                            Chỉ số <sup>trên</sup>: dùng thẻ <span class="highlight">&lt;sup&gt;</span></br>
+                        </li>
+                        <li>
+                            Chỉ số <sub>dưới</sub>: dùng thẻ <span class="highlight">&lt;sub&gt;</span>
+                        </li>
+                    </ul>
+                    <li>
+                        Tạo bảng (có ghép dòng, ghép cột).
+                        <ul>
+                            <li>
+                                Bảng có ghép dòng:
+                                <table>
+                                        <tr>
+                                          <th>Họ tên</th>
+                                          <th colspan="2">Số điện thoại</th>
+                                        </tr>
+                                        <tr>
+                                          <td>Đoàn Thanh Phương</td>
+                                          <td>0378921082</td>
+                                          <td>0365889935</td>
+                                        </tr>
+                                      </table>
+                            </li>
+                            <li>
+                                Bảng có ghép cột:
+                                <table>
+                                        <tr>
+                                          <th>Họ tên</th>
+                                          <td>Đoàn Thanh Phương</td>
+                                        </tr>
+                                        <tr>
+                                          <th rowspan="2">Số điện thoại</th>
+                                          <td>0378921082</td>
+                                        </tr>
+                                        <tr>
+                                          <td>0365889935</td>
+                                        </tr>
+                                      </table>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        4 hiệu ứng chữ chạy từ 4 hướng (trái, phải, trên, dưới)</br>
+                        <marquee>Chữ chạy qua trái</marquee></br>
+                        <marquee direction="right">Chữ chạy qua phải</marquee></br>
+                        <marquee direction="down">Chữ chạy trên xuống</marquee></br>
+                        <marquee direction="up">Chữ chạy dưới lên</marquee></br>
+                    </li>
+
+                </ul>
+        </li>
+    </ol>
+    <h5 class="footer" style="font-weight: normal">Design by PhuongDoan - 0378921082</h5>
+</body>
+</html>

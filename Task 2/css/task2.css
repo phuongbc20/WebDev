@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    margin-left: 20%;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: bisque;
+    transition-duration: 1s;
+        transition-timing-function: ease-out;   
+}
+.left{
+    float: left;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.left:hover{
+    width: 280px;
+}
+img.avt{
+    width:  70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+img.avt:hover{
+    border-radius: 10%;
+    width:  90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.left1{
+    background-color: rgb(40,105,154);
+}
+.name{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%; 
+    padding-bottom: 18px;
+}
+.left2{
+    background-color:rgb(50,128,189);
+    padding-bottom: 30px;
+    height: 900px;
+}
+.right{
+    float: left;
+    width: 600px;
+    background-color: white;
+    height: 1225px;
+}
+.right1{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.ct{
+    padding-top: 15px;
+}
+.text{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: justify ;
+}
+i.right{
+    margin-right: 5px;
+    height: auto;
+    width: 35px;
+    border-radius: 100%;
+    background-color:rgb(40,105,154);
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+i.material-icons{
+    border-radius: 100%;
+    background-color:rgb(40,105,154);
+    padding: 5px;
+}
+
+h2.left{
+    font-weight: normal;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.Titleright{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.levelskill{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 91%;
+    height: 8px;
+    background: white;
+}
+.levelskill1{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 80%;
+    height: 8px;
+    background: rgb(40,105,154);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.levelskill1:hover{
+    width: 100%;
+}
+.levelskill2{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 65%;
+    height: 8px;
+    background: rgb(40,105,154);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.levelskill2:hover{
+    width: 100%;
+}
+.levelskill3{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 72%;
+    height: 8px;
+    background: rgb(40,105,154);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.levelskill3:hover{
+    width: 100%;
+}
+.levelskill4{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 50%;
+    height: 8px;
+    background: rgb(40,105,154);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.levelskill4:hover{
+    width: 100%;
+}
+.levelskill5{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 80%;
+    height: 8px;
+    background: rgb(40,105,154);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.levelskill5:hover{
+    width: 100%;
+}
+ul{
+    margin-left: -10px;
+    list-style-type: circle;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+ul:hover{
+    font-size: 115%;
+}
+li{
+    padding-top: 10px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+li:hover{
+    color: yellow;
+    font-size: 115%;
+}
+.textright{
+    margin-right: 20px;
+    float: right;
+    text-align: right;
+}
+.edu{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.edu:hover{
+    font-size: 110%;
+}
+.work{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.work:hover{
+    font-size: 110%;
+}
+.achievement{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.achievement:hover{
+    font-size: 110%;
+}
+.skill{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.skill:hover{
+    font-size: 120%;
+}
+.gt{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.gt:hover{
+    font-size: 120%;
+}
+.ct{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.ct:hover{
+    font-size: 120%;
+}
+.t{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.t:hover{
+    color: red;
+    font-size: 115%;
+}
