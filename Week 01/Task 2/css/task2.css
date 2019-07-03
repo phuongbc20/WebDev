@@ -4,7 +4,8 @@ body{
     font-family: 'Saira Condensed', sans-serif;
     background-color: bisque;
     transition-duration: 1s;
-        transition-timing-function: ease-out;   
+    transition-timing-function: ease-out;   
+    padding-bottom: 50px;
 }
 .left{
     float: left;
@@ -33,6 +34,7 @@ img.avt:hover{
 }
 .left1{
     background-color: rgb(40,105,154);
+    height: 295px;
 }
 .name{
     
