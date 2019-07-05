@@ -6,6 +6,7 @@ body{
     transition-duration: 1s;
     transition-timing-function: ease-out;   
     padding-bottom: 50px;
+    width: 880px;
 }
 .left{
     float: left;
@@ -51,7 +52,7 @@ img.avt:hover{
 }
 .right{
     float: left;
-    width: 600px;
+    width: 68%;
     background-color: white;
     height: 1225px;
 }
