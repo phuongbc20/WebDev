@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link href="css/dashboard.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Đoàn Thanh Phương</a>
+      <input class="form-control form-control-dark w-50" type="text" placeholder="Search" aria-label="Search">
+      <ul class="nav justify-content-end flex" role="tablist">
+        <li class="nav-item ">
+          <a class="nav-link" data-toggle="tab" href="#cau1">Câu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#cau2">Câu 2</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" data-toggle="tab" href="#cau3">Câu 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#cau4">Câu 4</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#cau1">
+                  Câu 1
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau2">
+                  Câu 2
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau3">
+                  Câu 3
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau4">
+                  Câu 4
+                </a>
+              </li>  
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <div class="tab-content">
+              <div id="cau1" class="container tab-pane active"><br>
+                <h2>Câu 1</h2>
+                <h4>Trình bày các cách để tích hợp Bootstrap 
+                    vào một trang HTML/CSS bình thường trong
+                    điều kiện đang có kết nối Internet?</h4>
+                <p class="lead px-4">Thêm câu lệnh:<i style="color: red;"> &lt;link rel="stylesheet" 
+                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;
+                </i> trong thẻ <i style="color: red;">&lt;head&gt;</i></p>
+                <h4 >Trong Bootstrap đã được biên dịch gồm có những gì?</h4>
+                <p class="lead px-4">Chứa các tập tin CSS, JavaScript,
+                    và fonts đã được biên dịch và nén lại. Không bao 
+                    gồm tài liệu và các tập tin mã nguồn gốc.</p>
+              </div>
+              <div id="cau2" class="container tab-pane fade"><br>
+                <h2>Câu 2</h2>
+                <h4>Responsive là gì?</h4>
+                <p class="lead px-4">Responsive là phong cách thiết kế website phù hợp trên tất cả các
+                   thiết bị, mọi độ phân giải màn hình. “Responsive Web Design” 
+                   là xu hướng thiết kế web hiện nay.</p>
+                <h4> Làm thế nào nếu muốn vô hiệu hóa tính năng Responsive khi đang sử
+                    dụng Bootstrap?</h4>
+                <p class="lead px-4">Thêm câu lệnh:<i style="color: red;"> &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                </i> trong thẻ <i style="color: red;">&lt;head&gt;</i>
+                </p>
+              </div>
+              <div id="cau3" class="container tab-pane fade"><br>
+                <h2>Câu 3</h2>
+                <h4>Tìm hiểu về hệ thống lưới (Grid System) của Bootstrap và so sánh hoạt động của hệ thống
+                    lưới này trên các thiết bị có kích thước màn hình khác nhau như Phones (&lt;768px), Tablet
+                    ( ≥768px), Desktop( ≥992px và ≥1200px).</h4>
+                <p class="lead px-4"></p>
+              </div>
+              <div id="cau4" class="container tab-pane fade"><br>
+                <h2>Câu 4</h2>
+                <h4>Tìm và cho ví dụ về cách để thực hiện các yêu cầu sau:</h4>
+                <p class="lead px-4">+ Chèn 1 button 1 biểu tượng trong Button đó.</p>
+                <button type="button" class="btn btn-dark px-4" style="margin-left:10%;"><i class="material-icons" style="font-size:14px;" >phone</i> Button</button>
+                <p class="lead px-4">+ Chèn 1 thanh Progress bar (tiến trình) tương tự trong CV ở Task 1.2.</p>
+                <div class="progress" style="margin-left:10%;">
+                    <div class="progress-bar" style="width:70%"></div>
+                  </div>
+                  <p class="lead px-4">+ Chèn các loại cảnh báo (Alert) trong trang như Succes, Info, Danger, Warning.</p>
+                  <div class="alert alert-success" style="margin-left:10%;">
+                      <strong>Success!</strong> This alert box could indicate a successful or positive action.
+                    </div>
+                    <div class="alert alert-info" style="margin-left:10%;">
+                      <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+                    </div>
+                    <div class="alert alert-warning" style="margin-left:10%;">
+                      <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+                    </div>
+                    <div class="alert alert-danger" style="margin-left:10%;">
+                      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+                    </div>
+                    <p class="lead px-4">+ Chèn 1 menu (Navigation) trong đó có 1 mục có menu con xổ xuống.</p>
+                    <div class="btn-group" style="margin-left:10%;">
+                        <button type="button" class="btn btn-primary">Apple</button>
+                        <button type="button" class="btn btn-primary">Samsung</button>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                             Sony
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tablet</a>
+                            <a class="dropdown-item" href="#">Smartphone</a>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
