@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link href="css/dashboard.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css/task2.css">
+  </head>
+<body>
+        <img id="image" src="smiley.gif" width="100%" height="100%" style="z-index: -1; position: absolute;">
+        
+        <script>
+            (function a(){
+                var a=Math.floor(Math.random() * 6);
+                if (a==0) document.getElementById("image").src = "Image/1.jpg";
+                else if (a==1) document.getElementById("image").src = "Image/2.jpg";
+                else if (a==2) document.getElementById("image").src = "Image/3.jpg";
+                else if (a==3) document.getElementById("image").src = "Image/4.jpg";
+                else if (a==4) document.getElementById("image").src = "Image/5.jpg";
+                else document.getElementById("image").src = "Image/6.jpg";
+            })();
+        </script>
+        <i class="material-icons" onclick="" style="padding: 10px; margin-left: 97%;">
+          build
+          </i>
+        <p id="time"></p>
+        <script>
+        var myVar = setInterval(myTimer, 1000);
+        
+        function myTimer() {
+          var d = new Date();
+          document.getElementById("time").innerHTML = d.toLocaleTimeString();
+        }
+        </script>
+        <p id="chao"></p>
+        <script>
+                (function myHello() {
+                  var d = new Date();
+                  if (d.getHours()>=0 && d.getHours()<12)
+                  document.getElementById("chao").innerHTML = "Chào buổi sáng, Thanh Phương";
+                  else if (d.getHours()>=12 && d.getHours()<17)
+                  document.getElementById("chao").innerHTML = "Chào buổi chiều, Thanh Phương";
+                  else document.getElementById("chao").innerHTML = "Chào buổi tối, Thanh Phương";
+                })();
+        </script>
+       
+        <p id="date"></p>
+       
+        <script>
+            var myVa = setInterval(myHello, 1000);
+                function myHello() {
+                  var d = new Date();
+                  var dp= new Date(2000,08,21)
+                  var offset = d.getTime() - dp.getTime();
+                  var off=offset;
+                  var year = Math.floor(offset / 1000 / 60 / 60 / 24 / 365);
+                  offset -= year * 1000 * 60 * 60 * 24 *365;
+                  var month = Math.floor(offset / 1000 / 60 / 60 / 24 / 30);
+                  offset -= month * 1000 * 60 * 60 * 24 * 30;
+                  var days = Math.floor(offset / 1000 / 60 / 60 / 24);
+                  offset -= days * 1000 * 60 * 60 * 24;
+                  var hours = Math.floor(offset / 1000 / 60 / 60); 
+                  offset -= hours * 1000 * 60 * 60;
+                  var minutes = Math.floor(offset / 1000 / 60); 
+                  offset -= minutes * 1000 * 60; 
+                  var seconds = Math.floor(offset / 1000); 
+                  document.getElementById("date").innerHTML ="Bạn đang "+ year
+                  + " tuổi và bạn đã sống "+ Math.round(off / 1000 / 60 / 60 / 24)  +" ngày </br>"
+                  +  year +" năm " + month + " tháng " + days + " ngày " + hours
+                  + " giờ " + minutes + " phút " + seconds + " giây";
+                }
+        </script>
+        <i><p id="chamngon"></p></i>
+        <script>
+            (function b(){
+                var a=Math.floor(Math.random() * 6);
+                if (a==0) document.getElementById("chamngon").innerHTML = "Hạnh phúc là không chờ đợi, bạn phải nắm bắt hoặc không tự mình tạo ra nó.";
+                else if (a==1) document.getElementById("chamngon").innerHTML = "Khi tất cả những cái khác đã mất đi thì tương lai vẫn còn.";
+                else if (a==2) document.getElementById("chamngon").innerHTML = "Đứng vững và không nghĩ rằng mình sẽ ngã thì sẽ chẳng bao giờ ngã.";
+                else if (a==3) document.getElementById("chamngon").innerHTML = "Tôi không tin ai không có lúc buồn, tôi không tin ai luôn có niềm vui.";
+                else if (a==4) document.getElementById("chamngon").innerHTML = "Nếu ai cũng có thể hiểu bạn, vậy bạn phải bình thường tới mức nào đây?";
+                else document.getElementById("chamngon").innerHTML = "Luôn đặt mình vào vị trí của người khác. Nếu trong vị trí đó, bạn thấy đau, có lẽ người kia cũng sẽ cảm thấy như vậy.";
+            })();
+        </script>
+</body>
+</html>

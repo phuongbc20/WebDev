@@ -1,0 +1,196 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link href="css/dashboard.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Đoàn Thanh Phương</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      
+    </nav>
+    <div class="container">
+      <div class="row" style="background-color:rgb(255, 236, 225)">
+          <div class="col-6 justify-content-center">
+            <ul class=" nav nav-tabs" role="tablist" style="font-size: 190%;">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#cau1">
+                  Câu 1
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau2">
+                  Câu 2
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau3">
+                  Câu 3
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cau4">
+                  Câu 4
+                </a>
+              </li>  
+            </ul>
+            </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row" class="col-6 pt-3 px-4 justify-content-md-center">
+            <div class="tab-content ">
+              <div id="cau1" class="container tab-pane active"><br>
+                <h2>Câu 1</h2>
+                <h4>Những vị trí nào có thể đặt Javascript trong file HTML và dặt theo cú pháp nào?</h4>
+                <p class="lead px-4">Có thể đặt trong thẻ &lt;head&gt; hoặc thẻ &lt;body&gt; theo cú pháp: </br>
+                  <i style="color: red;">&lt;script&gt;
+                    </br>
+                    ...</br>
+                    &lt;script&gt;
+                  </i>
+                </p>
+                <h4 >Nên đặt
+                    Javascript tại vị trí nào để có hiệu suất tốt nhất? </h4>
+                <p class="lead px-4">Nên đặt ở cuối chương trình vì nó sẽ load sau cùng. Nếu đặt trước css và html nó sẽ load trước khi load được giao diện lên.</p>
+              </div>
+              <div id="cau2" class="container tab-pane fade"><br>
+                <h2>Câu 2</h2>
+                <h4>Trong Javascript có những kiểu dữ liệu nào?</h4>
+                <p class="lead px-4">
+                  <ul class="lead">
+                    <li>string</li>
+                    <li>number</li>
+                    <li>boolean</li>
+                    <li>object</li>
+                    <li>undefined</li>
+                    <li>array </li>
+
+                  </ul>
+                </p>
+                <h4>  Làm thế nào để tạo một biến để lưu trữ giá
+                    trị tương ứng với những kiểu dữ liệu đó?.</h4>
+                <p class="lead px-4">Dùng câu lệnh:<i style="color: red;"> var  
+                </i> [tên biến] <i style="color: red;">;</i>
+                </p>
+              </div>
+              <div id="cau3" class="container tab-pane fade"><br>
+                <h2>Câu 3</h2>
+                <h4>Làm thế nào để truy xuất (lấy giá trị) trong 1 thẻ HTML bất kỳ và gán vào 1 biến để trong
+                    Javascript theo ID, theo Class, theo Name, theo tên thẻ HTML và theo CSS Selector (ví dụ
+                    .class, #id)?</h4>
+                <p class="lead px-4">
+                  <xmp style="font-size: 140%">
+                    <div>
+                        <p id="id_cua_toi">Hãy đọc tôi đi.</p>
+                    </div>
+                    <script type="text/javascript">
+                    var element = document.getElementById('id_cua_toi');
+                    console.log(element);
+                    console.log(element.innerHTML);
+                    </script>
+                  </xmp>
+                </p>
+              </div>
+              <div id="cau4" class="container tab-pane fade"><br>
+                <h2>Câu 4</h2>
+                <h4>Xác định các lệnh Javascript tương ứng để thực hiện các yêu cầu sau:</h4>
+                <p class="lead px-4">+ Viết ghi chú trong Javascript (1 dòng, nhiều dòng)
+                  <ul class="px-4" style="margin-left: 90px;">
+                    <li>Một dòng: dùng //</li>
+                    <li>Nhiều dòng: dùng /* ... */</li>
+                  </ul>
+                </p>
+                
+                <p class="lead px-4">+ Hiển thị thời gian hiện tại (từ năm đến giây theo múi giờ GMT+7 - Việt Nam).
+                  <p>
+                    <xmp style="font-size: 140%">   
+          <script>
+               var d = new Date();
+              document.getElementById("demo").innerHTML = d;
+          </script></xmp>
+                  </p>
+                </p>
+                
+                  <p class="lead px-4">+ Viết 1 hàm (function) để tính tổng giá trị của 2 số ngẫu nhiên từ 1 đến 100.
+                      <p>
+                          <xmp style="font-size: 140%">
+          function sum() {
+              return Math.floor(Math.random() * 100 + 1) + Math.floor(Math.random() * 100 + 1);
+         }
+                          </xmp>
+                      </p>
+                  </p>
+                  
+                    <p class="lead px-4">+ Đổi màu nền hay hình nền của trang.</p>
+                    <xmp style="font-size: 140%">
+          function backgroundColorr() {
+               document.body.style.backgroundColor = "red";
+          }
+                          </xmp>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
